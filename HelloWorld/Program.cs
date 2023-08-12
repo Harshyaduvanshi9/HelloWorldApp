@@ -2,6 +2,14 @@
 {
     internal class Program
     {
+        static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+        static int Divide(int a, int b)
+        {
+            return a / b;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
@@ -11,5 +19,6 @@
             Console.Write($"{Environment.NewLine}Press any key to exit...");
             Console.ReadKey(true);
         }
+
     }
 }
